@@ -1,7 +1,6 @@
 #Accounting for dependencies:
 import pandas as pd
 import spacy
-!python -m spacy download en_core_web_md
 import en_core_web_md
 nlp = en_core_web_md.load()  
 import numpy as np
